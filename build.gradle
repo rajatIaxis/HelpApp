@@ -20,11 +20,13 @@ plugins {
   id "org.sonarqube" version "3.0"
 }
 android {
-compileSdkVersion 'android-P'
+    compileSdkVersion("android-P")
 
-defaultConfig {
-    targetSdkVersion 'P'
+    defaultConfig {
+        targetSdkVersion("P")
+    }
 }
+
 
 allprojects {
     repositories {
