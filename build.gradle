@@ -16,14 +16,6 @@ buildscript {
     }
 }
 
-android {
-    compileSdkVersion("android-P")
-
-    defaultConfig {
-        targetSdkVersion("P")
-    }
-}
-
 
 plugins {
   id "org.sonarqube" version "3.0"
