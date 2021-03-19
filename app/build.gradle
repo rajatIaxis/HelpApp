@@ -6,6 +6,10 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     buildToolsVersion "29.0.3"
+    
+    lintOptions {
+          abortOnError false
+      }
 
     defaultConfig {
         applicationId "com.example.myapp"
