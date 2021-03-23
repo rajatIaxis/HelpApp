@@ -16,12 +16,6 @@ buildscript {
     }
 }
 
-
-plugins {
-  id "org.sonarqube" version "3.0"
-}
-
-
 allprojects {
     repositories {
         google()
@@ -32,4 +26,7 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+plugins {
+  id "org.sonarqube" version "3.0"
 }
